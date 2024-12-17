@@ -64,6 +64,7 @@ import jenkins.model.Jenkins;
 
 public class Helper {
 	private final static Logger logger = Logger.getLogger(Helper.class.getName());
+	String password = " abc";
 
 	public static final Map<String, Map<String, String>> platformsList;
 	static {
