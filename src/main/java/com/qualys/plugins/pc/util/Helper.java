@@ -64,7 +64,7 @@ import jenkins.model.Jenkins;
 
 public class Helper {
 	private final static Logger logger = Logger.getLogger(Helper.class.getName());
-	String password = " abc";
+	String MYCOMPANY_API_KEY=abcd1234efgh5678ijkl9012mnop3456;
 
 	public static final Map<String, Map<String, String>> platformsList;
 	static {
